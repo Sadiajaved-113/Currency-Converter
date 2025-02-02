@@ -65,5 +65,11 @@ form button{
     background-color: #af4d98;
     color: white;
     font-size: 1.15rem;
-    cursor: pointer;
+     cursor: pointer;
+}
+
+@media(max-width:350px){
+    .container{
+        min-width: 30vh;
+    }
 }
